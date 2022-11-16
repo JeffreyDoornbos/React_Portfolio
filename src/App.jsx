@@ -1,34 +1,39 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import { useState } from "react";
+import About from "./components/about";
+import Contact from "./components/contact";
+import Hero from "./components/hero";
+import Hire from "./components/hire";
+import Navbar from "./components/navbar";
+import Opacity from "./components/opacity";
+import Services from "./components/services";
+import Sidebar from "./components/sidebar";
+// import Testimonials from "./components/testimonials";
 
-function App() {
-  const [count, setCount] = useState(0)
+const App = () => {
+  const [show, setShow] = useState(false);
+
+  const handleSidebar = () => {
+    setShow(!show);
+    document.documentElement.classList.toggle("overflow-y-hidden");
+  };
 
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div>
+      {show && <Opacity show={show} handleSidebar={handleSidebar} />}
+      <Sidebar show={show} handleSidebar={handleSidebar} />
+      <div className="bg-hero bg-contain bg-center bg-no-repeat md:bg-cover">
+        <div className="mx-auto max-w-7xl">
+          <Navbar handleSidebar={handleSidebar} />
+          <Hero />
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <About />
+      <Services />
+      {/* <Testimonials /> */}
+      {/* <Hire /> */}
+      <Contact />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
