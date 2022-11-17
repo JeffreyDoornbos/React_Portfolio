@@ -4,23 +4,23 @@ import { faStickyNote } from "@fortawesome/free-solid-svg-icons";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Logo from "../assets/Watermelon_Hosting.png";
+import Logo from "../assets/ESSWHITE.jpg";
 
 const Contact = () => {
   const contacts = [
     {
       text: "Call Me Now",
-      value: "+1 234 5678 901",
+      value: "+31 636 5930 17",
       icon: faPhone,
     },
     {
       text: "Chat with Me",
-      value: "john@doe.com",
+      value: "jeffrey.jubal@gmail.com",
       icon: faEnvelope,
     },
     {
       text: "Get Me Here",
-      value: "45/B, London, UK",
+      value: "Rucphensebaab 31, 4714 RE, NL",
       icon: faMugHot,
     },
   ];

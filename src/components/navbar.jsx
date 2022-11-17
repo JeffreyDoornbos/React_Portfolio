@@ -1,7 +1,7 @@
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Logo from "../assets/Watermelon_Hosting.png";
+import Logo from "../assets/ESSWHITE.jpg";
 
 const Navbar = ({ handleSidebar }) => {
   const navbarMenu = [
@@ -29,7 +29,7 @@ const Navbar = ({ handleSidebar }) => {
         <a href={"/"}>
           <img
             src={Logo}
-            className="h-[40px] w-[40px] rounded-md lg:rounded-lg xl:h-[60px] xl:w-[60px]"
+            className="h-[60px] w-[60px] rounded-md lg:rounded-lg xl:h-[80px] xl:w-[80px]"
             alt="Logo"
           />
         </a>
