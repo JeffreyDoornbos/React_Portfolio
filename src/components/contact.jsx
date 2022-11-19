@@ -20,7 +20,7 @@ const Contact = () => {
     },
     {
       text: "Get Me Here",
-      value: "Rucphensebaab 31, 4714 RE, NL",
+      value: "Rucphensebaan 31, 4714 RE, NL",
       icon: faMugHot,
     },
   ];
