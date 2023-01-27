@@ -1,5 +1,5 @@
-import Client from "../assets/client.png";
-import ClientRounded from "../assets/client rounded.png";
+import Client from "../assets/ja.png";
+import ClientRounded from "../assets/ja.png";
 
 const Testimonials = () => {
   return (
@@ -13,7 +13,7 @@ const Testimonials = () => {
           <div className="py-6 sm:py-8">
             <div className="mb-4 text-[15px] font-medium md:mb-10 md:text-[25px] lg:text-[35px]">
               <span>
-                John helped us deliver a high performance application for our
+                Jeffrey helped us deliver a high performance application for our
                 company
               </span>
             </div>
@@ -27,10 +27,10 @@ const Testimonials = () => {
               </div>
               <div className="flex-none self-end">
                 <div className="text-[10px] font-bold md:text-lg lg:text-2xl">
-                  <span>James Houston</span>
+                  <span>Jeffrey Droonbos</span>
                 </div>
                 <div className="text-[7px] md:text-xs lg:text-sm">
-                  <span>Founder of Houxton</span>
+                  <span>Founder of easy entry software</span>
                 </div>
               </div>
             </div>

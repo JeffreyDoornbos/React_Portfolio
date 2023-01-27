@@ -2,12 +2,11 @@ import { useState } from "react";
 import About from "./components/about";
 import Contact from "./components/contact";
 import Hero from "./components/hero";
-import Hire from "./components/hire";
 import Navbar from "./components/navbar";
 import Opacity from "./components/opacity";
 import Services from "./components/services";
 import Sidebar from "./components/sidebar";
-// import Testimonials from "./components/testimonials";
+import Testimonials from "./components/testimonials";
 
 const App = () => {
   const [show, setShow] = useState(false);
@@ -29,8 +28,7 @@ const App = () => {
       </div>
       <About />
       <Services />
-      {/* <Testimonials /> */}
-      {/* <Hire /> */}
+      <Testimonials />
       <Contact />
     </div>
   );

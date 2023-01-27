@@ -17,10 +17,6 @@ const Navbar = ({ handleSidebar }) => {
       name: "Services",
       link: "#services",
     },
-    // {
-    //   name: "Testimonials",
-    //   link: "#testimonials",
-    // },
   ];
 
   return (
