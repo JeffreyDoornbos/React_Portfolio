@@ -1,3 +1,5 @@
+import cv from "../assets/CV.png";
+
 const About = () => {
   return (
     <div
@@ -13,8 +15,8 @@ const About = () => {
            Snelle developer misschien wel de beste :) kan meerdere talen. en ben goedkoop
           </span>
         </div>
-        <button className="rounded-md bg-accent/80 py-2 px-4 font-roboto text-xs font-semibold text-white transition-all hover:bg-accent md:rounded-lg md:px-5 md:text-[13px] lg:text-[15px]">
-          Download CV
+        <button  className="rounded-md bg-accent/80 py-2 px-4 font-roboto text-xs font-semibold text-white transition-all hover:bg-accent md:rounded-lg md:px-5 md:text-[13px] lg:text-[15px]">
+      <a href="https://drive.google.com/file/d/1v4S0E8LNZWxMdt4r7zypqgkl9fGSPhQG/view?usp=share_link" target="_blank">Download CV</a>
         </button>
       </div>
     </div>
