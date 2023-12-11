@@ -32,14 +32,12 @@ const Hero = () => {
         <div className="relative mx-10 self-end font-poppins sm:mx-14 md:mx-0 md:pr-8 lg:pr-0 lg:pb-16">
           <div className="relative mb-4 ml-auto w-max text-2xl font-extrabold uppercase text-accent md:text-[32px] lg:mb-6 lg:text-[50px]">
             <div className="absolute top-full right-0 h-[2px] w-3/4 bg-accent md:top-[120%] lg:top-[150%]" />
-            <span>Senior Developer</span>
+            <span>Portfolio</span>
           </div>
           <div className="mb-4 text-justify text-[13px] font-medium text-light lg:max-w-[479px] lg:text-[15px]">
             <span>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-less normal
-              distribution of letters.
+              Welkom bij mijn Portfolio
+              hier kan je al mij leuke projecten zien van school en buiten school
             </span>
           </div>
           <div className="text-right text-[13px] font-semibold text-accent md:mb-20 md:text-left lg:text-base">

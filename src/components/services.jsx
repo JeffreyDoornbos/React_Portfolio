@@ -17,12 +17,7 @@ const Services = () => {
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       icon: faMobileScreen,
     },
-    // {
-    //   name: "Game Development",
-    //   description:
-    //     "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    //   icon: faGamepad,
-    // },
+
   ];
 
   return (
